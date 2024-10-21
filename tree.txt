@@ -1,0 +1,179 @@
+.
+├── docker-compose.yml
+├── LICENSE
+├── pz-cheeseria-rest-api
+│   ├── appsettings.Development.json
+│   ├── appsettings.Development.json:Zone.Identifier
+│   ├── appsettings.json
+│   ├── appsettings.json:Zone.Identifier
+│   ├── Controllers
+│   │   ├── CheeseProductController.cs
+│   │   └── CheeseProductController.cs:Zone.Identifier
+│   ├── Dockerfile
+│   ├── Exceptions
+│   │   ├── DeleteCheeseProductException.cs
+│   │   ├── DeleteCheeseProductException.cs:Zone.Identifier
+│   │   ├── GetCheeseProductByIdException.cs
+│   │   ├── GetCheeseProductByIdException.cs:Zone.Identifier
+│   │   ├── GetCheeseProductByNameException.cs
+│   │   ├── GetCheeseProductByNameException.cs:Zone.Identifier
+│   │   ├── PostCheeseProductException.cs
+│   │   ├── PostCheeseProductException.cs:Zone.Identifier
+│   │   ├── UpdateCheeseProductException.cs
+│   │   └── UpdateCheeseProductException.cs:Zone.Identifier
+│   ├── LICENSE.txt
+│   ├── LICENSE.txt:Zone.Identifier
+│   ├── Models
+│   │   ├── CheeseProductModel.cs
+│   │   ├── CheeseProductModel.cs:Zone.Identifier
+│   │   └── Dto
+│   │       ├── CheeseProductDto.cs
+│   │       └── CheeseProductDto.cs:Zone.Identifier
+│   ├── Program.cs
+│   ├── Program.cs:Zone.Identifier
+│   ├── Properties
+│   │   ├── launchSettings.json
+│   │   └── launchSettings.json:Zone.Identifier
+│   ├── PZCheeseriaRestApi.csproj
+│   ├── PZCheeseriaRestApi.csproj:Zone.Identifier
+│   ├── PZCheeseriaRestApi.sln
+│   ├── PZCheeseriaRestApi.sln:Zone.Identifier
+│   ├── README.md
+│   ├── README.md:Zone.Identifier
+│   └── Services
+│       ├── CheeseProductModelMapper.cs
+│       ├── CheeseProductModelMapper.cs:Zone.Identifier
+│       ├── CheeseProductService.cs
+│       ├── CheeseProductService.cs:Zone.Identifier
+│       └── Settings
+│           ├── MongoDBSettings.cs
+│           └── MongoDBSettings.cs:Zone.Identifier
+├── pz-cheeseria-web-app
+│   ├── Dockfile
+│   ├── LICENSE
+│   ├── LICENSE:Zone.Identifier
+│   ├── pz-cheeseria-web-app
+│   │   ├── dist
+│   │   │   ├── assets
+│   │   │   │   ├── AboutView-BC8TiZme.js
+│   │   │   │   ├── AboutView-BC8TiZme.js:Zone.Identifier
+│   │   │   │   ├── AboutView-DiHYE5Kf.css
+│   │   │   │   ├── AboutView-DiHYE5Kf.css:Zone.Identifier
+│   │   │   │   ├── base-DERLmJcV.css
+│   │   │   │   ├── base-DERLmJcV.css:Zone.Identifier
+│   │   │   │   ├── blue-DCiezWYr.webp
+│   │   │   │   ├── blue-DCiezWYr.webp:Zone.Identifier
+│   │   │   │   ├── brie-5NYGqzyU.webp
+│   │   │   │   ├── brie-5NYGqzyU.webp:Zone.Identifier
+│   │   │   │   ├── cheedar-CEpxSqBO.webp
+│   │   │   │   ├── cheedar-CEpxSqBO.webp:Zone.Identifier
+│   │   │   │   ├── cheese-icon-DGpSmPuJ.png
+│   │   │   │   ├── cheese-icon-DGpSmPuJ.png:Zone.Identifier
+│   │   │   │   ├── gouda-D92_Qxgg.webp
+│   │   │   │   ├── gouda-D92_Qxgg.webp:Zone.Identifier
+│   │   │   │   ├── index-CWBqyNnv.css
+│   │   │   │   ├── index-CWBqyNnv.css:Zone.Identifier
+│   │   │   │   ├── index-DGVY5YIO.js
+│   │   │   │   ├── index-DGVY5YIO.js:Zone.Identifier
+│   │   │   │   ├── main-BU3SSWVl.css
+│   │   │   │   ├── main-BU3SSWVl.css:Zone.Identifier
+│   │   │   │   ├── parmesan-CJMDcWa2.webp
+│   │   │   │   ├── parmesan-CJMDcWa2.webp:Zone.Identifier
+│   │   │   │   ├── vineyard-lQqysWcN.jpg
+│   │   │   │   └── vineyard-lQqysWcN.jpg:Zone.Identifier
+│   │   │   ├── favicon.ico
+│   │   │   ├── favicon.ico:Zone.Identifier
+│   │   │   ├── index.html
+│   │   │   └── index.html:Zone.Identifier
+│   │   ├── env.d.ts
+│   │   ├── env.d.ts:Zone.Identifier
+│   │   ├── eslint.config.js
+│   │   ├── eslint.config.js:Zone.Identifier
+│   │   ├── index.html
+│   │   ├── index.html:Zone.Identifier
+│   │   ├── package.json
+│   │   ├── package.json:Zone.Identifier
+│   │   ├── package-lock.json
+│   │   ├── package-lock.json:Zone.Identifier
+│   │   ├── public
+│   │   │   ├── favicon.ico
+│   │   │   └── favicon.ico:Zone.Identifier
+│   │   ├── README.md
+│   │   ├── README.md:Zone.Identifier
+│   │   ├── src
+│   │   │   ├── App.vue
+│   │   │   ├── App.vue:Zone.Identifier
+│   │   │   ├── assets
+│   │   │   │   ├── base.css
+│   │   │   │   ├── base.css:Zone.Identifier
+│   │   │   │   ├── blue.webp
+│   │   │   │   ├── blue.webp:Zone.Identifier
+│   │   │   │   ├── brie.webp
+│   │   │   │   ├── brie.webp:Zone.Identifier
+│   │   │   │   ├── cheedar.webp
+│   │   │   │   ├── cheedar.webp:Zone.Identifier
+│   │   │   │   ├── cheese-icon.png
+│   │   │   │   ├── cheese-icon.png:Zone.Identifier
+│   │   │   │   ├── gouda.webp
+│   │   │   │   ├── gouda.webp:Zone.Identifier
+│   │   │   │   ├── logo.svg
+│   │   │   │   ├── logo.svg:Zone.Identifier
+│   │   │   │   ├── main.css
+│   │   │   │   ├── main.css:Zone.Identifier
+│   │   │   │   ├── parmesan.webp
+│   │   │   │   ├── parmesan.webp:Zone.Identifier
+│   │   │   │   ├── vineyard.jpg
+│   │   │   │   └── vineyard.jpg:Zone.Identifier
+│   │   │   ├── components
+│   │   │   │   ├── icons
+│   │   │   │   │   ├── IconCommunity.vue
+│   │   │   │   │   ├── IconCommunity.vue:Zone.Identifier
+│   │   │   │   │   ├── IconDocumentation.vue
+│   │   │   │   │   ├── IconDocumentation.vue:Zone.Identifier
+│   │   │   │   │   ├── IconEcosystem.vue
+│   │   │   │   │   ├── IconEcosystem.vue:Zone.Identifier
+│   │   │   │   │   ├── IconSupport.vue
+│   │   │   │   │   ├── IconSupport.vue:Zone.Identifier
+│   │   │   │   │   ├── IconTooling.vue
+│   │   │   │   │   └── IconTooling.vue:Zone.Identifier
+│   │   │   │   ├── LandingPageMessage.vue
+│   │   │   │   ├── LandingPageMessage.vue:Zone.Identifier
+│   │   │   │   ├── __tests__
+│   │   │   │   │   ├── HelloWorld.spec.ts
+│   │   │   │   │   └── HelloWorld.spec.ts:Zone.Identifier
+│   │   │   │   ├── WelcomeItem.vue
+│   │   │   │   └── WelcomeItem.vue:Zone.Identifier
+│   │   │   ├── main.ts
+│   │   │   ├── main.ts:Zone.Identifier
+│   │   │   ├── router
+│   │   │   │   ├── index.ts
+│   │   │   │   └── index.ts:Zone.Identifier
+│   │   │   └── views
+│   │   │       ├── AboutView.vue
+│   │   │       ├── AboutView.vue:Zone.Identifier
+│   │   │       ├── CheeseSelectionView.vue
+│   │   │       ├── CheeseSelectionView.vue:Zone.Identifier
+│   │   │       ├── ContactView.vue
+│   │   │       ├── ContactView.vue:Zone.Identifier
+│   │   │       ├── HomeView.vue
+│   │   │       └── HomeView.vue:Zone.Identifier
+│   │   ├── tsconfig.app.json
+│   │   ├── tsconfig.app.json:Zone.Identifier
+│   │   ├── tsconfig.json
+│   │   ├── tsconfig.json:Zone.Identifier
+│   │   ├── tsconfig.node.json
+│   │   ├── tsconfig.node.json:Zone.Identifier
+│   │   ├── tsconfig.vitest.json
+│   │   ├── tsconfig.vitest.json:Zone.Identifier
+│   │   ├── vite.config.ts
+│   │   ├── vite.config.ts:Zone.Identifier
+│   │   ├── vitest.config.ts
+│   │   ├── vitest.config.ts:Zone.Identifier
+│   │   ├── vue.config.js
+│   │   └── vue.config.js:Zone.Identifier
+│   ├── README.md
+│   └── README.md:Zone.Identifier
+├── README.md
+└── tree.txt
+
+20 directories, 156 files
