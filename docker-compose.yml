@@ -6,7 +6,7 @@ services:
       context: ./pz-cheeseria-rest-api
       dockerfile: Dockerfile
     ports:
-      - "7281:80"  # Map to the port your API runs on
+      - "7281:80"
     networks:
       - my-network
 
@@ -15,7 +15,7 @@ services:
       context: ./pz-cheeseria-web-app/pz-cheeseria-web-app/
       dockerfile: Dockerfile
     ports:
-      - "5173:80"  # Map to the port your Vue.js app runs on
+      - "5173:80"
     networks:
       - my-network
 
